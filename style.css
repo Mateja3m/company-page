@@ -1,0 +1,173 @@
+@import @url('https://fonts.googleapis.com/css?family=Baloo+Paaji+2&display=swap');
+
+* {
+    font-family: 'Baloo Paaji 2', cursive;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 7%;
+    background: lightgray;
+}
+
+
+
+#title {
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+    color: inherit;
+    margin-left: 3px;
+}
+
+ul li {
+    font-size: 1.5em;
+    display: inline-block;
+    padding: 10px 20px;
+    list-style: none;
+    font-weight: bold;
+}
+
+ul li:hover {
+    background: blue;
+    color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#section1 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder
+}
+
+#input-txt {
+    width: 400px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.btn-main {
+    width: 200px;
+    padding: 9px;
+    color: white;
+    background: blue;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-main:hover {
+    color: black;
+    background: lightgray;
+    font-weight: bold;
+}
+
+.btn {
+    width: 150px;
+    padding: 9px;
+    color: white;
+    background: blue;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+}
+
+.btn1 {
+    margin: 1px;
+}
+
+.btn:hover {
+    color: black;
+    background: lightgray;
+    font-weight: bold;
+}
+
+#middle-section {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    text-align: center;
+    margin: 150px 5px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#work {
+    text-align: center;
+    margin: 50px auto;
+}
+
+#price {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+#house1 {
+    margin: 10px 50px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid blue;
+}
+
+#house2 {
+    margin: 10px 50px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid blue;
+}
+
+#house3 {
+    margin: 10px 50px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid blue;
+}
+
+footer {
+    background: lightgray;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+#last {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+
+}
+
+#myBtn:hover {
+    background-color: lightgray;
+}
